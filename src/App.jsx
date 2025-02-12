@@ -17,6 +17,7 @@ import ComponentA from './ComponentA';
 import StopWatch from './StopWatch';
 
 function App() {
+  document.title = "StopWatch"
   let fruit_list= ["mango","apple","banana"]
   let fruits = [
     {id:1,name:"apple", calories:45},

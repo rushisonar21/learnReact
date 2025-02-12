@@ -2,7 +2,6 @@ import { useEffect, useRef } from "react";
 import { useState } from "react";
 
 function StopWatch(){
-    
     let [isRunning,setIsRunning] = useState(false)
     let [elapsedTime,setElapsedTime] = useState(0);
     let startTime = useRef(0)
